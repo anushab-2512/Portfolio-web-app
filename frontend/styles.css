@@ -504,7 +504,69 @@ a {
     padding: 16px 16px 32px;
   }
 
+
   .header--spread {
     flex-wrap: wrap;
   }
+}
+
+/* Education List */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-item {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  background: var(--bg);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.education-header strong {
+  font-size: 16px;
+}
+
+.education-header span {
+  font-size: 14px;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.education-school {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.education-score {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Certificates List */
+.certificates-list {
+  list-style: disk;
+  padding-left: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.certificates-list li {
+  font-size: 14px;
+  line-height: 1.5;
 }
