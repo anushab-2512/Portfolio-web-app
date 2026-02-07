@@ -1,4 +1,4 @@
-# Twenty20 - Portfolio Authentication App
+# Portgolio Web Application
 A responsive portfolio web application with user registration and login functionality. After successful authentication, users can view their profile with About Me, Skills, and Projects sections. The app includes database integration, secure authentication flow, logout support, and live deployment.
 
 Built with **FastAPI**, **MongoDB**, and vanilla **HTML/CSS/JavaScript**.
@@ -81,7 +81,7 @@ twenty20/
 
 ### Prerequisites
 - Python 3.10+
-- MongoDB (local or Docker)
+- MongoDB (Docker)
 - Git
 
 ### Step 1: Clone and Setup
@@ -136,15 +136,6 @@ The app supports **Light** and **Dark** themes:
 - **Login/Register page**: Theme toggle at top-right corner
 - **Portfolio page**: Theme toggle in user dropdown menu
 - **Theme preference is saved in localStorage**
-
-## ⚠️ Notes
-
-This application intentionally avoids sessions/JWT as per project constraints:
-- Validates credentials on login (server-side)
-- Returns user profile data to the browser
-- Stores the profile in `localStorage` for portfolio rendering
-
-**This is for demonstration purposes and not production-grade authentication.**
 
 ## 👤 Author
 
