@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header header--spread">
+      <h1 class="brand-title">Portfolio</h1>
+      <div class="user-menu">
+        <button id="user-icon" class="btn-icon" type="button" aria-label="User menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+          </svg>
+        </button>
+        <div id="user-dropdown" class="dropdown" hidden>
+          <p class="dropdown-email" id="dropdown-email">—</p>
+          <div class="dropdown-divider"></div>
+          <button id="theme-toggle" class="theme-toggle-dropdown" type="button">
+            <span>Theme</span>
+            <span id="theme-icon">🌙</span>
+          </button>
+          <button id="logout" class="btn btn-small" type="button">Logout</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title card-title-centered" id="username">—</h2>
+          <div class="profile-info-card">
+            <div class="profile-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span id="profile-email">anushab0012@gmail.com</span>
+            </div>
+            <div class="profile-info-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span id="profile-location">Bangalore, India</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>About Me</h3>
+            <p id="about" class="section-text">—</p>
+          </div>
+
+          <div class="section">
+            <h3>Skills</h3>
+            <div class="chips" id="skills"></div>
+          </div>
+
+          <div class="section">
+            <h3>Projects</h3>
+            <div id="projects" class="projects-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Contact Information</h2>
+          <div class="contact-list">
+            <p>📧 Email: anushab0012@gmail.com</p>
+            <p>📍 Location: Bangalore, India</p>
+            <p>💻 GitHub: https://github.com/anushab-2512</p>
+            <p>🔗 LinkedIn: https://www.linkedin.com/in/anusha-b-b07b9b2a8/</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/static/theme.js"></script>
+  <script src="/static/portfolio.js" defer></script>
+</body>
+
+</html>
