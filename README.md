@@ -1,6 +1,7 @@
 # Twenty20 - Portfolio Authentication App
+A responsive portfolio web application with user registration and login functionality. After successful authentication, users can view their profile with About Me, Skills, and Projects sections. The app includes database integration, secure authentication flow, logout support, and live deployment.
 
-A responsive web application with user authentication and portfolio display, built with **FastAPI**, **MongoDB**, and vanilla **HTML/CSS/JavaScript**.
+Built with **FastAPI**, **MongoDB**, and vanilla **HTML/CSS/JavaScript**.
 
 ## 🚀 Features
 
@@ -134,7 +135,7 @@ Navigate to: **http://127.0.0.1:8000**
 The app supports **Light** and **Dark** themes:
 - **Login/Register page**: Theme toggle at top-right corner
 - **Portfolio page**: Theme toggle in user dropdown menu
-- Theme preference is saved in localStorage
+- **Theme preference is saved in localStorage**
 
 ## ⚠️ Notes
 
